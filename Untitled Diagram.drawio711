@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T03:46:20.307Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="D9pXv1qYgmTpw5zcVBzP" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-11T03:50:59.290Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ncKSjXC2O8I23eV8zWwn" version="24.6.4" type="github">
   <diagram name="Page-1" id="OLo4GbDlKR7rAJzkdptI">
-    <mxGraphModel>
+    <mxGraphModel dx="1085" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0NsvPPZ2lmskCYQXASnL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NsvPPZ2lmskCYQXASnL-1" target="0NsvPPZ2lmskCYQXASnL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NsvPPZ2lmskCYQXASnL-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0NsvPPZ2lmskCYQXASnL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NsvPPZ2lmskCYQXASnL-2" target="0NsvPPZ2lmskCYQXASnL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NsvPPZ2lmskCYQXASnL-2" value="新建Codec&lt;div&gt;（&lt;span style=&quot;background-color: transparent; font-family: Arial, sans-serif; font-size: 8pt; white-space-collapse: preserve;&quot;&gt;MediaCodec::CreateByType&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0NsvPPZ2lmskCYQXASnL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0NsvPPZ2lmskCYQXASnL-3" target="0NsvPPZ2lmskCYQXASnL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NsvPPZ2lmskCYQXASnL-3" value="配置Codec&lt;div&gt;（configure）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0NsvPPZ2lmskCYQXASnL-5" value="开始Codec&lt;div&gt;（Start）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
